@@ -3,10 +3,11 @@ import { Box } from "@mui/system";
 import CurrencyBitcoinIcon from "@mui/icons-material/CurrencyBitcoin";
 import SendIcon from "@mui/icons-material/Send";
 import Product from "./components/Product";
+import BluCard from "./components/BlueCard";
 
 export default function App() {
   return (
-    <Container>
+    <Container xs={{mt: 5}}>
       {/* <Grid container spacing={5}>
         <Grid item xs={12} sm={6} md={4}>
           <h1>React + Vite</h1>
@@ -64,9 +65,7 @@ export default function App() {
           <Product/>
         </Grid>
       </Grid> */}
-      <Product/>
-      <Product/>
-      <Product/>
+      <BluCard/>
     </Container>
   );
 }
